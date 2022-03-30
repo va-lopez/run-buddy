@@ -142,21 +142,9 @@ section{
     font-size: 16px;
     border: none;
 }
+/*hero styls end */
 
-.intro p{
-    /* add this alongside your other declarations*/
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.steps {
-    background: #fce138;
-}
-
+/* Section title styles start */
 .section-title{
     font-size: 55px;
     color: #024e76;
@@ -173,6 +161,25 @@ section{
 
 .secondary-border{
     border-color: #39a6b2;
+}
+
+/* section title syles end */
+
+.intro p{
+    /* add this alongside your other declarations*/
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* What you do styles end */
+
+/*What you do styles start */
+
+.steps {
+    background: #fce138;
 }
 
 .step{
@@ -192,6 +199,13 @@ section{
     flex: 1 30%;
 }
 
+.step-info{
+    flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .step-img{
     flex: 1 12%;
     margin-right: 20px;
@@ -205,12 +219,6 @@ section{
     flex: 12;
 }
 
-.step-info{
-    flex: 2 70%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
 .step-text p{
     color: #39a6b2;
@@ -223,19 +231,19 @@ section{
     color: #024e76;
 }
 
-.trainer{
-    margin: 0 auto 20px auto;
-    background: #024e76;
-    color: #fce138;
-    flex: 1;
-}
-
 .trainers{
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.trainer{
+    margin: 20px auto;
+    background: #024e76;
+    color: #fce138;
+    flex: 1;
 }
 
 .trainer img{
@@ -245,18 +253,6 @@ section{
 .trainer-bio{
     padding: 25px;
     line-height: 1.3;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-right{
-    text-align: right;
-}
-
-.flex-row {
-    display: flex;
 }
 
 .trainer-bio h3{
@@ -312,10 +308,6 @@ section{
     font-style: normal;
 }
 
-.contact-info a{
-    color: #fce138;
-}
-
 .contact-form input, .contact-form textarea{
     border: 1px solid #024e76;
     display: block;
@@ -335,4 +327,20 @@ section{
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+}
+
+.contact-info a{
+    color: #fce138;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
