@@ -2,7 +2,7 @@
 :root{
     --primary-color: #fce138;
     --secondary-color: #024e76;
-    --tertiarty-color: #39a6b2;
+    --tertiary-color: #39a6b2;
 }
 
 * {
@@ -13,14 +13,14 @@
 
 body {
     /* more on this crazy alphanumerical value in a minute! */
-    color: var(--tertiarty-color);
+    color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
 }
 
 /*apply styles to <header>*/
 header {
     padding: 20px 35px;
-    background-color:var(--tertiarty-color);
+    background-color:var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
@@ -450,7 +450,7 @@ section{
 
 .contact-form button:hover{
     color: var(--primary-color);
-    background: var(--tertiarty-color);
+    background: var(--tertiary-color);
 }
 
 .contact-info a{
