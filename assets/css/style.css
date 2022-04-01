@@ -45,7 +45,7 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10 15px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -344,4 +344,19 @@ section{
 
 .flex-row {
     display: flex;
+}
+
+/* Media Query for smaller desktop screens and smaller */
+@media screen and (max-width: 980px){
+    
+}
+
+/* Media Query for tablets and smaller */
+@media screen and (max-width: 768px){
+    
+}
+
+/* Media Query for moble phones and smaller */
+@media screen and (max-width: 575px){
+    
 }
